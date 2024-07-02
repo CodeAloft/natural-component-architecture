@@ -2,7 +2,7 @@
 Here I implement a small tic-tac-toe game à la https://react.dev/learn/tutorial-tic-tac-toe using the software design strategy described below. This version is clean, maintainable, fast, lightweight.
 
 ### Natural Component Programming
-Natural Component Programming (NCP) is a software design strategy that merges component-oriented and object-oriented approaches to web application development. The strategy was developed as a means of creating component-based software written in JavaScript that has no dependencies on frameworks or libraries such as Angular and React. It is a simple and straightforward way to take full advantage of the many benefits of object-oriented programming when building web applications.
+Natural Component Programming (NCP) is a software design strategy that merges component-oriented and object-oriented approaches to web development. The strategy was developed as a means of creating component-based software written in JavaScript that has no dependencies on frameworks or libraries such as Angular and React. It is a simple and straightforward way to take full advantage of the many benefits of object-oriented programming when building web applications.
 
 ### The Component Class
 In NCP, individual classes are used to define the various components of an application. Each of these classes inherits the properties and methods of a base class called Component by convention. 
