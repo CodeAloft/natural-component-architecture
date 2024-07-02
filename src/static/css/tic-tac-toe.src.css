@@ -1,0 +1,49 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    padding: 20px;
+    font-family: 'Arial', san-serif;
+}
+
+#game-container {
+    padding: 20px;
+    background-color: #FFF;
+    font-family: 'Arial', san-serif;
+}
+
+.game {
+    display: flex;
+    flex-direction: row;
+}
+
+.status-label {
+    margin-bottom: 10px;
+}
+
+.square {
+    background: #fff;
+    border: 1px solid #999;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 34px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 34px;
+}
+
+.game-info {
+    margin-left: 20px;
+}
+
+.game-info ol {
+    margin: 1rem 0;
+    padding-left: 2.5rem;
+}
