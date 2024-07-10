@@ -1,11 +1,11 @@
 # Tic-Tac-Toe
-Here I implement a small tic-tac-toe game à la https://react.dev/learn/tutorial-tic-tac-toe using the software design strategy described below. This version is clean, maintainable, fast, lightweight.
+Here I implement a small tic-tac-toe game à la https://react.dev/learn/tutorial-tic-tac-toe using the software design pattern described below. This version of the game is clean, maintainable, lightweight, and fast.
 
-### Natural Component Programming
-Natural Component Programming (NCP) is a software design strategy that merges component-oriented and object-oriented approaches to web development. The strategy was developed as a means of creating component-based software written in JavaScript that has no dependencies on frameworks or libraries such as Angular and React. It is a simple and straightforward way to take full advantage of the many benefits of object-oriented programming when building web applications.
+### Natural Component Architecture
+Natural Component Architecture (NCA) is a software design pattern that merges component-oriented and object-oriented approaches to web development. The pattern was developed as a means of creating component-based software written in JavaScript that has no dependencies on frameworks or libraries such as Angular and React. It is a simple and straightforward way to take full advantage of the many benefits of object-oriented programming when building web applications.
 
 ### The Component Class
-In NCP, individual classes are used to define the various components of an application. Each of these classes inherits the properties and methods of a base class called Component by convention. 
+In NCA, individual classes are used to define the various components of an application. Each of these classes inherits the properties and methods of a base class called Component by convention. 
 
 The job of the Component class is to establish the relationship between a component instance and the HTML document used to render that component in the web browser. A component can contain all the code necessary to dynamically create its HTML representation, or we can simply link existing HTML to it. In either case the way that relevant HTML is linked to a component instance is by assigned that HTML to an instance property called rootElement by convention. Since the DOM tree is hierarchical in nature, a component can be linked to an entire section of the tree by assigning a single HTML element to the rootElement property.
 
