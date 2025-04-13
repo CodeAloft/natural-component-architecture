@@ -9,7 +9,7 @@ In NCA, individual classes are used to define the various components of an appli
 
 The job of the Component class is to establish the relationship between a component instance and the HTML document used to render that component in the web browser. A component can contain all the code necessary to dynamically create its HTML representation, or we can simply link existing HTML to it.
 
-In either case the way that relevant HTML is linked to a component instance is by assigned that HTML to an instance property called rootElement by convention. Since the DOM tree is hierarchical in nature, a component can be linked to an entire section of the tree by assigning a single HTML element to the rootElement property.
+In either case the way that relevant HTML is linked to a component instance is by assigning that HTML to an instance property called rootElement by convention. Since the DOM tree is hierarchical in nature, a component can be linked to an entire section of the tree by assigning a single HTML element to the rootElement property.
 
 If component HTML is created dynamically, this is done using a method called inflate() by convention. The method typically constructs an HTML fragment using standard Web API functions such as Document.createElement(), Document.createTextNode(), Node.appendChild(), and EventTarget.addEventListener(). It then appends the fragment to whatever HTML element is specified as an attachment point, most often an element passed to the method as a parameter. A class that extends the Component class either directly or indirectly will usually override the inflate() method of its super class.
 
