@@ -58,7 +58,7 @@ deflate() {
 }
 ```
 
-If HTML content will not be created dynamically, it can be useful to implement a method called setElement() by convention that assigns a value to rootElement and then completes whatever tasks you may want to perform at that time. For example, you may wish to find and manipulate certain child elements of rootElement using the Document.querySelector() and Document.querySelectorAll() methods. Class constructors are another logical place where HTML elements can be assigned to instance properties.
+If HTML content will not be created dynamically, it can be useful to implement a method called setRootElement() by convention that assigns a value to rootElement and then completes whatever tasks you may want to perform at that time. For example, you may wish to find and manipulate certain child elements of rootElement using the Document.querySelector() and Document.querySelectorAll() methods. Class constructors are another logical place where HTML elements can be assigned to instance properties.
 
 ```
 /**
