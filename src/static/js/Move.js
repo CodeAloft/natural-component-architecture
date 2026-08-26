@@ -47,12 +47,6 @@ class Move extends Component {
             this.addEventListener(buttonElement, 'click', function(){
                 component.jumpTo();
             });
-              
-            this.addEventListener(this.closeButton, 'keydown', function(event){
-                if (event.keyCode === 13 || event.keyCode === 32) {
-                    component.jumpTo();
-                }
-            });
             
             frag.appendChild(this.rootElement);
             el.appendChild(frag);
