@@ -36,12 +36,6 @@ class Square extends Component {
             this.addEventListener(this.rootElement, 'click', function(){
                 component.activate();
             });
-              
-            this.addEventListener(this.closeButton, 'keydown', function(event){
-                if (event.keyCode === 13 || event.keyCode === 32) {
-                    component.activate();
-                }
-            });
         
             frag.appendChild(this.rootElement);
             el.appendChild(frag);
