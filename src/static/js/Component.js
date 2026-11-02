@@ -66,6 +66,7 @@ class Component {
             listener = this.eventListeners[i];
             listener.el.removeEventListener(listener.type, listener.listener);
         }
+        this.eventListeners = [];
     }
     
     /**
